@@ -21,7 +21,7 @@ else:
 # < less than
 # >= greater than or equal to
 # <= less than or equal to
-# == equal to
+# == equal to sign
 
 
 compare1 = 12 >= 13
