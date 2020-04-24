@@ -25,6 +25,12 @@ class List_practice():
             return True
         else:
             return False
+    def new():
+        words = ["a", "b", "c", "d", "e", "f"]
+        while len(words) != 0:
+            words.pop(0)
+        return words
 
 """List_practice.common_end([2],[3])
 This is how you call a function from a class"""
+# print(List_practice.new())
