@@ -30,7 +30,31 @@ class List_practice():
         while len(words) != 0:
             words.pop(0)
         return words
+    def new1():
+        a = int(input())
+        b =[]
+        c = 2
+        for i in range(a):
+            b.append(i + 1)
+            
+        while c != a+1:
+            hh = c/a
+            try:
+                if float(hh) % 1 == 0:
+                    pass
+                try:
+                    hh = float(hh)
+                    hh = int(hh)
+                except:
+                    pass
+            except:
+                pass
+            if type(hh) == type(4):
+                if a % c == 0:
+                    return (c)
+                    break
+            c += 1
 
 """List_practice.common_end([2],[3])
 This is how you call a function from a class"""
-# print(List_practice.new())
+print(List_practice.new1())
